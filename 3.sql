@@ -1,6 +1,8 @@
-INSERT INTO voitures (numero_voiture, écurie, voiture, "type") VALUES
+INSERT INTO voitures (numero_voiture, écurie, voiture, type)
+VALUES
 (2, 'Cadillac Racing', 'Cadillac V-Series.R', 'LMDh'),
 (3, 'Cadillac Racing', 'Cadillac V-Series.R', 'LMDh'),
+(4, 'Porsche Penske Motorsport', 'Porsche 963', 'LMDh'),
 (5, 'Porsche Penske Motorsport', 'Porsche 963', 'LMDh'),
 (6, 'Porsche Penske Motorsport', 'Porsche 963', 'LMDh'),
 (7, 'Toyota Gazoo Racing', 'Toyota GR010 Hybrid', 'LMH'),
@@ -8,6 +10,7 @@ INSERT INTO voitures (numero_voiture, écurie, voiture, "type") VALUES
 (11, 'Isotta Fraschini Duqueine', 'Isotta Fraschini Tipo 6 LMH-C', 'LMH'),
 (12, 'Hertz Team Jota', 'Porsche 963', 'LMDh'),
 (15, 'BMW M Team WRT', 'BMW M Hybrid V8', 'LMDh'),
+(19, 'Lamborghini Iron Lynx', 'Lamborghini SC63', 'LMDh'),
 (20, 'BMW M Team WRT', 'BMW M Hybrid V8', 'LMDh'),
 (35, 'Alpine Endurance Team', 'Alpine A424', 'LMDh'),
 (36, 'Alpine Endurance Team', 'Alpine A424', 'LMDh'),
@@ -19,4 +22,4 @@ INSERT INTO voitures (numero_voiture, écurie, voiture, "type") VALUES
 (93, 'Peugeot TotalEnergies', 'Peugeot 9X8', 'LMH'),
 (94, 'Peugeot TotalEnergies', 'Peugeot 9X8', 'LMH'),
 (99, 'Proton Competition', 'Porsche 963', 'LMDh'),
-(311, 'Action Express Racing', 'Cadillac V-Series.R', 'LMDh');
+(311, 'Whelen Cadillac Racing', 'Cadillac V-Series.R', 'LMDh');
