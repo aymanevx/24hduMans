@@ -10,13 +10,13 @@ CREATE TABLE voitures (
     "écurie" TEXT,
     "voiture" TEXT,
     "type" TEXT,
-    PRIMARY KEY "numero_voiture"
+    PRIMARY KEY ("numero_voiture")
 );
 
 CREATE TABLE inscriptions (
     "id" INTEGER,
     "numero_voiture" INTEGER,
-    "id_pilote" TEXT,
+    "id_pilote" INTEGER,
     PRIMARY KEY ("id"),
     FOREIGN KEY ("numero_voiture") references "voitures"("numero_voiture"),
     FOREIGN KEY ("id_pilote") references "pilotes"("id")
@@ -31,5 +31,3 @@ CREATE TABLE resultat_voiture (
     "nombre_arrets" INTEGER,
     FOREIGN KEY ("numero_voiture") references "voitures"("numero_voiture")
 );
-
-
