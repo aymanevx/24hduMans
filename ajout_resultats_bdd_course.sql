@@ -1,3 +1,8 @@
+-- Insertion des résultats de la course des 24 Heures du Mans 2024
+-- Source : Wikipedia - 24 Heures du Mans 2024 (classement général).  
+-- Les données ont été extraites et structurées à l’aide de ChatGPT.
+-- Chaque ligne représente le résultat final d'une voiture participante.
+
 INSERT INTO resultat_voiture (numero_voiture, position, tours, temps_abandon, nombre_arrets) VALUES
 (50, 1, 311, '0:00:00', 26),
 (7, 2, 311, '+00:00:14.221', 31),
