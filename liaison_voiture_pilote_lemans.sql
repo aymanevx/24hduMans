@@ -1,3 +1,8 @@
+-- Insertion des inscriptions des pilotes aux 24 Heures du Mans 2024
+-- Source : Wikipedia - 24 Heures du Mans 2024 (engagés par voiture)
+-- Données structurées à l’aide de ChatGPT
+-- Chaque ligne indique quel pilote (id_pilote) est associé à quelle voiture (numero_voiture)
+
 INSERT INTO inscriptions (id_pilote, numero_voiture) VALUES
 (1, 50), (2, 50), (3, 50),
 (4, 51), (5, 51), (6, 51),
