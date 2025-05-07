@@ -1,3 +1,8 @@
+-- Insertion des pilotes ayant participé aux 24 Heures du Mans 2024
+-- Source : Wikipedia - 24 Heures du Mans 2024 (liste des engagés)
+-- Données structurées à l’aide de ChatGPT
+-- Chaque ligne correspond à un pilote avec son nom et sa nationalité
+
 INSERT INTO pilotes (nom, pays)
 VALUES
 ('Antonio Fuoco', 'Italie'),
