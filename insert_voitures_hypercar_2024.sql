@@ -1,3 +1,8 @@
+-- Insertion des voitures engagées aux 24 Heures du Mans 2024
+-- Source : Wikipedia - 24 Heures du Mans 2024 (liste des engagés).
+-- Les données ont été extraites et structurées à l’aide de ChatGPT.
+-- Chaque ligne correspond à une voiture participante avec son numéro, écurie, modèle et catégorie.
+
 INSERT INTO voitures (numero_voiture, écurie, voiture, type)
 VALUES
 (2, 'Cadillac Racing', 'Cadillac V-Series.R', 'LMDh'),
